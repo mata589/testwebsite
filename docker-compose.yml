@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  simple-html-app:
+    image: kizitorichard/test
+    ports:
+      - "8080:80"
